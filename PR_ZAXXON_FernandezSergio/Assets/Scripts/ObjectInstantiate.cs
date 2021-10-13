@@ -5,15 +5,19 @@ using UnityEngine;
 public class ObjectInstantiate : MonoBehaviour
 {
 
-    [SerializeField] GameObject Obstacles;
+    [SerializeField] GameObject[] arrayObst;
     [SerializeField] Transform initPos;
+    InitGame initGame;
     float intervalo;
+    int level;
 
     // Start is called before the first frame update
     void Start()
     {
-        intervalo = 1f;
+        intervalo = 0.5f;
+        initGame = GameObject.Find("InitGame").GetComponent<InitGame>();
         StartCoroutine("CreateObstacles");
+        
     }
 
     // Update is called once per frame
@@ -27,9 +31,25 @@ public class ObjectInstantiate : MonoBehaviour
         while (true)
         {
             Vector3 instPos = new Vector3(Random.Range(-9f, 9f), 0f, initPos.position.z);
-            Instantiate(Obstacles, instPos, Quaternion.identity);
-            yield return new WaitForSeconds(intervalo);
+            int randomnum;
 
+            level = initGame.levelGame;
+
+            if(level == 0)
+            {
+                randomnum = 0;
+            }
+            else if (level > 0 && level < 4)
+            {
+                randomnum = Random.Range(0, 2);
+            }
+            else
+            {
+                randomnum = Random.Range(0, arrayObst.Length);
+            }
+
+            Instantiate(arrayObst[randomnum], instPos, Quaternion.identity);
+            yield return new WaitForSeconds(intervalo);
         }
     }
 }

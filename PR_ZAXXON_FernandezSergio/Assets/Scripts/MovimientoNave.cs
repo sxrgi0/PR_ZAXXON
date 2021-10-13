@@ -11,7 +11,7 @@ public class MovimientoNave : MonoBehaviour
     float limiteR = 8;
     float limiteL = -8;
     float limiteDown = 0.9f;
-    float limiteUp = 15;
+    float limiteUp = 12;
     bool inlimitH = true;
     bool inlimitV = true;
 
