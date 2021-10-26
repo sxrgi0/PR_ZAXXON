@@ -8,7 +8,7 @@ public class ObjectInstantiate : MonoBehaviour
     [SerializeField] GameObject[] arrayObst;
     [SerializeField] Transform initPos;
     InitGame initGame;
-    float intervalo;
+    [SerializeField] float intervalo;
     int level;
 
     // Start is called before the first frame update
@@ -28,27 +28,64 @@ public class ObjectInstantiate : MonoBehaviour
 
     IEnumerator CreateObstacles()
     {
+
+        bool hasalidopared = false;
+        int contadorpared = 0;
         while (true)
         {
             Vector3 instPos = new Vector3(Random.Range(-9f, 9f), 0f, initPos.position.z);
-            int randomnum;
+            int randomnum = 0;
+
+            
 
             level = initGame.levelGame;
+            print(level);
 
-            if(level == 0)
+            if (level == 1)
             {
                 randomnum = 0;
             }
-            else if (level > 0 && level < 4)
+            else if (level == 2 && hasalidopared == false)
             {
                 randomnum = Random.Range(0, 2);
             }
-            else
+            else if (level == 3 && hasalidopared == false)
             {
                 randomnum = Random.Range(0, arrayObst.Length);
             }
+            else
+            {
+                randomnum = 0;
+            }
+    
 
+
+            if(arrayObst[randomnum].tag == "columna")
+            {
+                instPos = new Vector3(Random.Range(-9f, 9f), 0f, initPos.position.z);
+            }
+            else if(arrayObst[randomnum].tag == "pared")
+            {
+                instPos = new Vector3(0f, 0f, initPos.position.z);
+               
+            }
+           
             Instantiate(arrayObst[randomnum], instPos, Quaternion.identity);
+            print(hasalidopared);
+            if(arrayObst[randomnum].tag == "pared")
+            {
+                hasalidopared = true;
+            }
+            if (hasalidopared)
+            {
+                contadorpared++;
+            }
+            if(contadorpared == 3)
+            {
+                hasalidopared = false;
+                contadorpared = 0;
+            }
+
             yield return new WaitForSeconds(intervalo);
         }
     }

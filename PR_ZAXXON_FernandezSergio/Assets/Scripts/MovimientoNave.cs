@@ -14,11 +14,12 @@ public class MovimientoNave : MonoBehaviour
     float limiteUp = 12;
     bool inlimitH = true;
     bool inlimitV = true;
+    [SerializeField] InitGame initGame;
 
     // Start is called before the first frame update
     void Start()
     {
-       
+        initGame = GameObject.Find("InitGame").GetComponent<InitGame>();
     }
 
     // Update is called once per frame
@@ -67,5 +68,14 @@ public class MovimientoNave : MonoBehaviour
             inlimitV = true;
         }
     }
-    
+
+    private void OnTriggerEnter(Collider other)
+    {
+        
+        if(other.gameObject.layer == 6)
+        {
+            initGame.spaceshipspeed = 0f;
+            Destroy(gameObject);
+        }
+    }
 }
