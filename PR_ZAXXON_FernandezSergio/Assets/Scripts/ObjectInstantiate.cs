@@ -14,9 +14,9 @@ public class ObjectInstantiate : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        intervalo = 0.5f;
+        intervalo = 0.4f;
         initGame = GameObject.Find("InitGame").GetComponent<InitGame>();
-        StartCoroutine("CreateObstacles");
+        StartCoroutine("CreateObstacles"); 
         
     }
 
@@ -39,7 +39,7 @@ public class ObjectInstantiate : MonoBehaviour
             
 
             level = initGame.levelGame;
-            print(level);
+            
 
             if (level == 1)
             {
@@ -71,7 +71,7 @@ public class ObjectInstantiate : MonoBehaviour
             }
            
             Instantiate(arrayObst[randomnum], instPos, Quaternion.identity);
-            print(hasalidopared);
+           
             if(arrayObst[randomnum].tag == "pared")
             {
                 hasalidopared = true;
@@ -88,5 +88,14 @@ public class ObjectInstantiate : MonoBehaviour
 
             yield return new WaitForSeconds(intervalo);
         }
+    }
+
+
+    public void StopGame()
+    {
+
+        StopCoroutine("CreateObstacles");
+
+
     }
 }

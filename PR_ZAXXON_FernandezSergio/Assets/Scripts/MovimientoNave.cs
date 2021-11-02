@@ -15,6 +15,7 @@ public class MovimientoNave : MonoBehaviour
     bool inlimitH = true;
     bool inlimitV = true;
     [SerializeField] InitGame initGame;
+    [SerializeField] GameObject navePrefab;
 
     // Start is called before the first frame update
     void Start()
@@ -71,11 +72,13 @@ public class MovimientoNave : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        
-        if(other.gameObject.layer == 6)
+
+        if (other.gameObject.layer == 6)
         {
-            initGame.spaceshipspeed = 0f;
-            Destroy(gameObject);
+            initGame.SendMessage("Morir");
+            navePrefab.SetActive(false);
+            
+
         }
     }
 }

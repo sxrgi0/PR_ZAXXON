@@ -22,4 +22,11 @@ public class InitGame : MonoBehaviour
     {
         
     }
+
+    public void Morir()
+    {
+        spaceshipspeed = 0f;
+        ObjectInstantiate objectInstantiate = GameObject.Find("ObjectInstantiate").GetComponent<ObjectInstantiate>();
+        objectInstantiate.SendMessage("StopGame");
+    }
 }
