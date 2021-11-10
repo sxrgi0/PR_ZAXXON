@@ -36,7 +36,7 @@ public class MovimientoNave : MonoBehaviour
     {
         float posX = transform.position.x;
         float posY = transform.position.y;
-
+        
         despX = Input.GetAxis("Horizontal");
         despY = Input.GetAxis("Vertical");
 

@@ -69,10 +69,14 @@ public class ObjectInstantiate : MonoBehaviour
                 instPos = new Vector3(0f, 0f, initPos.position.z);
                
             }
+            else if(arrayObst[randomnum].tag == "pared2")
+            {
+                instPos = new Vector3(0f, Random.Range(0f, 10f), initPos.position.z);
+            }
            
             Instantiate(arrayObst[randomnum], instPos, Quaternion.identity);
-           
-            if(arrayObst[randomnum].tag == "pared")
+
+            if (arrayObst[randomnum].tag == "pared" && arrayObst[randomnum].tag == "pared2");
             {
                 hasalidopared = true;
             }
