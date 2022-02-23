@@ -19,6 +19,8 @@ public class InitGame : MonoBehaviour
     [SerializeField] Text levelText;
     [SerializeField] Button retrybutton;
 
+    AudioSource audiosource;
+
 
     // Start is called before the first frame update
     void Start()
@@ -36,7 +38,8 @@ public class InitGame : MonoBehaviour
         GameOverCanvas = GameOver.GetComponent<Canvas>();
         GameOverCanvas.enabled = false;
 
-        
+        audiosource = GetComponent<AudioSource>();
+        audiosource.Play();
 
 
     }
@@ -91,6 +94,8 @@ public class InitGame : MonoBehaviour
         objectInstantiate.SendMessage("StopGame");
         
         Invoke("ShowGameOver", 0.1f);
+
+        audiosource.Stop();
 
         if (score > GameManager.highscore)
         {
