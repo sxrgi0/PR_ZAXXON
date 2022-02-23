@@ -5,7 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class UIButtons : MonoBehaviour
 {
-
    public void LoadScene (int scene)
     {
         SceneManager.LoadScene(scene);
