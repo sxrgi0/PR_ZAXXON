@@ -710,3 +710,143 @@ System memory in use after: 63.0 MB.
 Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1727.
 Total: 1.801200 ms (FindLiveObjects: 0.163900 ms CreateObjectMapping: 0.035100 ms MarkObjects: 1.515400 ms  DeleteObjects: 0.085800 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 1367.910942 seconds.
+  path: Assets/Textures/City/fence_initialShadingGroup_color.png
+  artifactKey: Guid(b9e300c045d1a4b4b94c75bd361ec230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/City/fence_initialShadingGroup_color.png using Guid(b9e300c045d1a4b4b94c75bd361ec230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08d9764b4bc64479fcbcf4692b27a9ee') in 0.135806 seconds
+  Import took 0.138048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Textures/City/fence_initialShadingGroup_nmap.png
+  artifactKey: Guid(18e58eb031814c441bbd14a4c7606e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/City/fence_initialShadingGroup_nmap.png using Guid(18e58eb031814c441bbd14a4c7606e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c4fec672675b6b895d435eaa2929f9c') in 0.140388 seconds
+  Import took 0.155915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Textures/City/fence_initialShadingGroup_color.png
+  artifactKey: Guid(b9e300c045d1a4b4b94c75bd361ec230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/City/fence_initialShadingGroup_color.png using Guid(b9e300c045d1a4b4b94c75bd361ec230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08d9764b4bc64479fcbcf4692b27a9ee') in 0.014202 seconds
+  Import took 0.015957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Textures/City/fence_initialShadingGroup_nmap.png
+  artifactKey: Guid(18e58eb031814c441bbd14a4c7606e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/City/fence_initialShadingGroup_nmap.png using Guid(18e58eb031814c441bbd14a4c7606e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c4fec672675b6b895d435eaa2929f9c') in 0.013862 seconds
+  Import took 0.015617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Textures/City/Fonar_initialShadingGroup_color.png
+  artifactKey: Guid(d1d486fa69102c843b1064f6d6ee7e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/City/Fonar_initialShadingGroup_color.png using Guid(d1d486fa69102c843b1064f6d6ee7e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8362028089edcee2d353ff6e7365813b') in 0.014536 seconds
+  Import took 0.039598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.578406 seconds.
+  path: Assets/Textures/City/Fonar_initialShadingGroup_emmission.png
+  artifactKey: Guid(a4e8b7ca68bd34c49a0b61d667433743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/City/Fonar_initialShadingGroup_emmission.png using Guid(a4e8b7ca68bd34c49a0b61d667433743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baae1ef8706332ae88e772bd28f11999') in 0.024344 seconds
+  Import took 0.070117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Textures/City/Fonar_initialShadingGroup_nmap.png
+  artifactKey: Guid(1c88d73daf4a55844a1319332437d508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/City/Fonar_initialShadingGroup_nmap.png using Guid(1c88d73daf4a55844a1319332437d508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ae67f7d906a3bf8432640a7edee5872') in 0.014885 seconds
+  Import took 0.038560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.282647 seconds.
+  path: Assets/Textures/City/Fonar_initialShadingGroup_rough.png
+  artifactKey: Guid(7d5d16f456cf9684d8fab6db772badd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/City/Fonar_initialShadingGroup_rough.png using Guid(7d5d16f456cf9684d8fab6db772badd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '229246f51187aad6cabbdf12f0599635') in 0.237968 seconds
+  Import took 0.239826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Textures/City/Fonar_small_initialShadingGroup_ao.png
+  artifactKey: Guid(6fb0f3c1ba83a7f4bbe0027fec22d0b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/City/Fonar_small_initialShadingGroup_ao.png using Guid(6fb0f3c1ba83a7f4bbe0027fec22d0b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16b38adb7d9d812ef983301f8918f6a5') in 0.014558 seconds
+  Import took 0.016242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/FireExplosionVFX/Art/Fnt_GothicFont.ttf
+  artifactKey: Guid(8e4363ee0a253f8468087c612496caa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FireExplosionVFX/Art/Fnt_GothicFont.ttf using Guid(8e4363ee0a253f8468087c612496caa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26f8acc59c69c3ca95e7adf5e952bdc9') in 0.152154 seconds
+  Import took 0.153954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Textures/City/Fonar_small_initialShadingGroup_color.png
+  artifactKey: Guid(0816c96b6d9d430469699a3d0409a0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/City/Fonar_small_initialShadingGroup_color.png using Guid(0816c96b6d9d430469699a3d0409a0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c0247d116088fbfd11e146fa2464907') in 0.016034 seconds
+  Import took 0.017736 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Textures/City/Fonar_small_initialShadingGroup_rough.png
+  artifactKey: Guid(879068ae2b16e904f806b7f348bc0e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/City/Fonar_small_initialShadingGroup_rough.png using Guid(879068ae2b16e904f806b7f348bc0e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb97a848b95beba73274777edbe0e2ac') in 0.326143 seconds
+  Import took 0.327872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Textures/City/House_01_lokation_FULL_initialShadingGroup.png
+  artifactKey: Guid(1ba3b57ce738b364d97f9e4258680ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/City/House_01_lokation_FULL_initialShadingGroup.png using Guid(1ba3b57ce738b364d97f9e4258680ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90c84f6776fd752a17ae3b9e7dc5a7fa') in 0.234451 seconds
+  Import took 0.236196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Textures/City/House_01_initialShadingGroup_color.png
+  artifactKey: Guid(17ad467539077c840aae0995d70190fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/City/House_01_initialShadingGroup_color.png using Guid(17ad467539077c840aae0995d70190fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c2a94fdca2a8555e69fd941808e60e0') in 0.014772 seconds
+  Import took 0.016443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Textures/City/House_01_lokation_FULL_initialShadingGroup1.png
+  artifactKey: Guid(1f5aa0bbb7a4c3549805b20e5cefc50d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/City/House_01_lokation_FULL_initialShadingGroup1.png using Guid(1f5aa0bbb7a4c3549805b20e5cefc50d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7821e689bef81803f5c3ce3de69e2811') in 0.014802 seconds
+  Import took 0.016531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Textures/City/Fonar_small_initialShadingGroup_nmap.png
+  artifactKey: Guid(c3b1ba6e6b5e04444a9cde420dd02481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/City/Fonar_small_initialShadingGroup_nmap.png using Guid(c3b1ba6e6b5e04444a9cde420dd02481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '685c226263ce4f2f6b93cc643653bff1') in 0.014524 seconds
+  Import took 0.016318 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 40.6 MB.
+System memory in use after: 40.7 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1735.
+Total: 2.298900 ms (FindLiveObjects: 0.161900 ms CreateObjectMapping: 0.038100 ms MarkObjects: 2.054800 ms  DeleteObjects: 0.043000 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
