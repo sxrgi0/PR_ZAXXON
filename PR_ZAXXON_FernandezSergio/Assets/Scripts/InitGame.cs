@@ -21,6 +21,7 @@ public class InitGame : MonoBehaviour
 
     AudioSource audiosource;
 
+        
 
     // Start is called before the first frame update
     void Start()
@@ -30,6 +31,8 @@ public class InitGame : MonoBehaviour
         maxspeed = 100f;
         alive = true;
         levelGame = 1;
+
+        
 
         //score 0
         //score = 0;
@@ -88,6 +91,7 @@ public class InitGame : MonoBehaviour
 
     public void Morir()
     {
+        
         spaceshipspeed = 0f;
         alive = false;
         ObjectInstantiate objectInstantiate = GameObject.Find("ObjectInstantiate").GetComponent<ObjectInstantiate>();

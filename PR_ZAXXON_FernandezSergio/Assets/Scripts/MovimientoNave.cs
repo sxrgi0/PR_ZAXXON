@@ -17,11 +17,15 @@ public class MovimientoNave : MonoBehaviour
     [SerializeField] InitGame initGame;
     [SerializeField] GameObject navePrefab;
 
+    [SerializeField] GameObject explosion;
+    [SerializeField] Transform explosionPos;
     // Start is called before the first frame update
     void Start()
     {
         initGame = GameObject.Find("InitGame").GetComponent<InitGame>();
+        
     }
+
 
     // Update is called once per frame
     void Update()
@@ -75,6 +79,7 @@ public class MovimientoNave : MonoBehaviour
 
         if (other.gameObject.layer == 6)
         {
+            
             initGame.SendMessage("Morir");
             navePrefab.SetActive(false);
             
